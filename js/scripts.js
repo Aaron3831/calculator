@@ -12,3 +12,8 @@ var BMI = function(){
 }
 
 BMI();
+
+
+var cel=function(temp){return(temp-32)*(5/9)};
+var temp = prompt ("What is the temp?");
+alert(cel(temp));
